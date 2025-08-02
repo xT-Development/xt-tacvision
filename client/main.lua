@@ -69,6 +69,14 @@ local keybind_toggleThermal = lib.addKeybind({
 
         utils.toggleThermalAnimation()
 
+        if playerState.thermalVision then
+            SeethroughSetMaxThickness(config.thermal.maxThickness)
+            SeethroughSetNoiseAmountMin(config.thermal.noiseMin)
+            SeethroughSetNoiseAmountMax(config.thermal.noiseMax)
+            SeethroughSetFadeStartDistance(config.thermal.fadeStartDistance)
+            SeethroughSetFadeEndDistance(config.thermal.fadeEndDistance)
+        end
+
         SetSeethrough(playerState.thermalVision)
     end
 })
