@@ -13,5 +13,8 @@
 - Exports to toggle nightvision or force set a state
 - Configurable keybinds
 
+
+## [Preview](https://streamable.com/x9uhps)
+
 # Dependencies:
 - [ox_lib](https://github.com/CommunityOx/ox_lib/releases)
